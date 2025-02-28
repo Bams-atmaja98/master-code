@@ -1,0 +1,13 @@
+-   install SFTP by natizyskunk di Vs Code
+-   masukan file "sftp.json" ke dalam folder ".vscode"
+-   setting sesuai dengan server tujuan
+
+note :
+    "name": "your_name",                                        // Untuk penamaan server SFTP anda
+    "host": "your-server.com",                                  // Ganti dengan alamat server Anda / IP Server
+    "username": "your-username",                                // Ganti dengan username Anda (biasanya root)
+    "password": "your-password",                                // Ganti dengan password atau private key path
+    "protocol": "sftp",                                         // Gunakan "ftp" jika menggunakan FTP atau "sftp" jika menggunakan SFTP
+    "port": 22,                                                 // Gunakan port 21 untuk FTP atau 22 untuk SFTP
+    "remotePath": "/path/to/remote/directory",                  // Ganti dengan path di server remote
+    "uploadOnSave": true                                        // Mengaktifkan upload otomatis setiap kali Anda menyimpan file
