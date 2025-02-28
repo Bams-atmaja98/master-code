@@ -1,6 +1,9 @@
--   install SFTP by natizyskunk di Vs Code
--   masukan file "sftp.json" ke dalam folder ".vscode"
--   setting sesuai dengan server tujuan
+-   Install SFTP by natizyskunk di Vs Code
+-   Ctrl + Shift + P
+-   SFTP: Config
+-   Setting sesuai dengan server tujuan
+-   Ctrl + Shift + P
+-   SFTP: Remote to Local
 
 note :
     "name": "your_name",                                        // Untuk penamaan server SFTP anda
