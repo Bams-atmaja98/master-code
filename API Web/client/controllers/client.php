@@ -68,7 +68,7 @@ class Client extends CI_Controller
     {
         $data = [
             'id'    => 1,
-            'name'  => 'Bama',
+            'name'  => 'Bams',
             'user'  => $this->user,
             'pass'  => $this->pass,
         ];
